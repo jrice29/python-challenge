@@ -3,10 +3,10 @@ print("Financial Analysis")
 print("-------------------------")
 
 import csv
-
-with open('PyBank/Resources/budget_data.csv') as csvfile:
+with open('PyBank/Py Bank Resources/budget_data.csv') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
     fields = next(csvfile)
+
 
     date = []
     pl = []
