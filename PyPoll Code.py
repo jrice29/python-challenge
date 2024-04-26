@@ -3,7 +3,7 @@ print("-------------------------")
 
 import csv
 
-with open('PyPoll/Resources/election_data.csv') as csvfile:
+with open('PyPoll/PyPoll Resources/election_data.csv') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
     fields = next(csvfile)
 
@@ -69,7 +69,7 @@ print("-------------------------")
 
 #export txt file
 
-file = open("PyPoll/Resources/election_data.csv.txt", "w")
+file = open("PyPoll/PyPoll Resources/election_data.csv.txt", "w")
 file.write("Election Results\n")
 file.write("----------------------------\n")
 file.write(f"Total Votes: {total_votes}\n")
